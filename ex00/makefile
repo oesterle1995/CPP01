@@ -1,6 +1,6 @@
 
 #Name
-NAME = BraiiiiiiinnnzzzZ
+NAME = a.out
 
 
 #Compilation

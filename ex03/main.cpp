@@ -6,7 +6,7 @@
 /*   By: aoesterl <aoesterl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/05 16:41:19 by aoesterl          #+#    #+#             */
-/*   Updated: 2026/05/05 19:40:59 by aoesterl         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:51:18 by aoesterl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ int main()
     jim.attack();
     club.setType("some other type of club");
     jim.attack();
+    HumanB jo("Jo");
+    jo.attack();
 }
 return 0;
 } 

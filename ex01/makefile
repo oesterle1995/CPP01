@@ -1,5 +1,5 @@
 #Name
-NAME = "Moar brainz!"
+NAME = a.out
 
 
 #Compilation

@@ -6,7 +6,7 @@
 /*   By: aoesterl <aoesterl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/05 18:05:35 by aoesterl          #+#    #+#             */
-/*   Updated: 2026/05/05 19:41:13 by aoesterl         ###   ########.fr       */
+/*   Updated: 2026/05/05 20:29:16 by aoesterl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class HumanB
         std::string my_name;
     public:
         void attack();
-        HumanB(std::string& name);
+        HumanB(const std::string& name);
         void setWeapon(Weapon& my_weap);
     
 };
