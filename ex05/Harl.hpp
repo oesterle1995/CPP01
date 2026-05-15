@@ -6,7 +6,7 @@
 /*   By: aoesterl <aoesterl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/06 19:20:19 by aoesterl          #+#    #+#             */
-/*   Updated: 2026/05/06 20:27:51 by aoesterl         ###   ########.fr       */
+/*   Updated: 2026/05/07 17:33:55 by aoesterl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,17 +19,20 @@
 class Harl
 { 
     private:
-        // typedef struct t_debug
-        // { 
-        //     std::string level[4];
-        //     void (*f)(void)[4];
-        // }
+        typedef void(Harl::*ptr_ft)(void);
+        typedef struct t_err
+        { 
+            std::string level;
+            ptr_ft      f;
+        }t_msg;
+        t_err err[4];
         void debug();
         void info();
         void warning();
         void error();
     public:
         void complain(std::string level);
+        Harl();
     
 
 
