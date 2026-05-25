@@ -13,7 +13,7 @@ RM = rm -rf
 
 #directories
 OBJ_DIR = Obj
-SRC = $(shell find -name "*.cpp")
+SRC = Harl.cpp  main.cpp
 OBJ = $(SRC:%.cpp=$(OBJ_DIR)/%.o )
 DEPS = $(OBJ:.o=.d)
 

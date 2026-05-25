@@ -13,7 +13,7 @@ RM = rm -rf
 
 #directories
 OBJ_DIR = Obj
-SRC = $(shell find -name "*.cpp")
+SRC = main.cpp newZombie.cpp  randomChump.cpp Zombie.cpp
 OBJ = $(SRC:%.cpp=$(OBJ_DIR)/%.o )
 
 all: $(NAME)
