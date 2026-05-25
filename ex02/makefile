@@ -1,6 +1,6 @@
 
 #Name
-NAME = "HI THIS IS BRAIN"
+NAME = a.out
 
 
 #Compilation

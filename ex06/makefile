@@ -1,6 +1,6 @@
 
 #Name
-NAME = HarlFilter
+NAME = a.out
 
 #Compilation
 CC = c++
